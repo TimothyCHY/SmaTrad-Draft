@@ -1,0 +1,100 @@
+
+/* Testing Image Block */
+	.fakeimg {
+		height: 200px;
+		background: #aaa;
+	}
+	  
+	.large-header {
+		position: relative;
+		width: 100%;
+		height: 200px;
+		background: #FFCE2B;
+		overflow: hidden;
+		background-size: cover;
+		background-position: center center;
+		z-index: 2;
+		margin-bottom:0;
+	}
+
+	.thin {
+		font-weight: 200;
+	}
+
+	.main-title {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		color: #f9f1e9;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate3d(-50%,-50%,0);
+		transform: translate3d(-50%,-50%,0);
+	}
+
+  
+  
+
+  
+/*                                     Stick Navbar and Content                                                          */  
+  
+	/* Style the navbar */
+	#navbar_sticky {
+	  overflow: visible;
+	  background-color: #333;
+	}
+
+	/* Navbar links */
+	#navbar_sticky a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  font-weight: bold;
+	  text-align: center;
+	  padding: 14px;
+	  text-decoration: none;
+	}
+	
+	/* Page Active */
+	#page-active {
+		
+	}
+	
+	/* footer */
+	.footer-style {
+		margin-bottom:0;
+		background-color: #333;
+		height: 60px;
+		padding: 15px;
+		color: white;
+	}
+	
+	.footer-content {
+		max-width: 100vw;
+		padding: 5px;
+		font-size: 13px;
+	}
+	
+	/* Header shadow */
+	.header-shadow {
+		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16), 0 3px 11px 0 rgba(0,0,0,0.12);
+	}
+
+	/* Page content */
+	.container {
+	  padding: 30px;
+	}
+
+	/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+	.sticky {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	}
+
+	/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+	.sticky + .container {
+	  /*padding-top: 105px;*/
+	  padding-top: 105px;
+	}
